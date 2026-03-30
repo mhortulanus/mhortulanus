@@ -1,6 +1,6 @@
 # Hey, I'm Manoj
 
-Developer at [@vormkracht10](https://github.com/vormkracht10) in Nijmegen, NL.
+Developer at [@UX](https://github.com/ux-nl) in Nijmegen, NL.
 
 Building things with **Laravel**, **FilamentPHP**, **Livewire**, **Inertia.js**, **React** & **Tailwind CSS**.
 
