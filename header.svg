@@ -1,0 +1,181 @@
+<svg fill="none" viewBox="0 0 800 320" width="800" height="320" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes gradient {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(8px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+        }
+        @keyframes pulse {
+          0%, 100% { opacity: 0.4; }
+          50% { opacity: 1; }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .card {
+          width: 800px;
+          height: 320px;
+          border-radius: 16px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+          overflow: hidden;
+          position: relative;
+          background: #ffffff;
+          color: #1a1a2e;
+          border: 1px solid rgba(0,0,0,0.08);
+        }
+        .accent-bar {
+          height: 4px;
+          background: linear-gradient(90deg, #6366f1, #8b5cf6, #a855f7, #6366f1);
+          background-size: 200% 100%;
+          animation: gradient 4s ease infinite;
+        }
+        .content {
+          padding: 40px 48px;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+        .greeting {
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #6366f1;
+          animation: fadeIn 0.6s ease both;
+        }
+        .name {
+          font-size: 42px;
+          font-weight: 700;
+          letter-spacing: -1px;
+          animation: fadeIn 0.6s ease 0.1s both;
+        }
+        .title {
+          font-size: 18px;
+          font-weight: 400;
+          color: #64748b;
+          animation: fadeIn 0.6s ease 0.2s both;
+        }
+        .title a {
+          color: #6366f1;
+          text-decoration: none;
+          font-weight: 500;
+        }
+        .terminal {
+          margin-top: 12px;
+          font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+          font-size: 14px;
+          color: #64748b;
+          animation: fadeIn 0.6s ease 0.3s both;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+        .prompt { color: #6366f1; font-weight: 600; }
+        .cmd { color: #1a1a2e; }
+        .cursor {
+          display: inline-block;
+          width: 8px;
+          height: 18px;
+          background: #6366f1;
+          animation: blink 1s step-end infinite;
+          vertical-align: text-bottom;
+        }
+        .stack {
+          display: flex;
+          gap: 8px;
+          margin-top: 8px;
+          animation: fadeIn 0.6s ease 0.4s both;
+          flex-wrap: wrap;
+        }
+        .tag {
+          font-size: 12px;
+          font-weight: 500;
+          padding: 4px 12px;
+          border-radius: 6px;
+          background: rgba(99, 102, 241, 0.08);
+          color: #6366f1;
+          letter-spacing: 0.3px;
+        }
+        .dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: #22c55e;
+          animation: pulse 2s ease infinite;
+          display: inline-block;
+        }
+        .status {
+          position: absolute;
+          bottom: 40px;
+          right: 48px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-size: 13px;
+          color: #64748b;
+          animation: fadeIn 0.6s ease 0.5s both;
+        }
+
+        /* Dark mode */
+        @media (prefers-color-scheme: dark) {
+          .card {
+            background: #0d1117;
+            color: #e6edf3;
+            border-color: rgba(255,255,255,0.08);
+          }
+          .accent-bar {
+            background: linear-gradient(90deg, #818cf8, #a78bfa, #c084fc, #818cf8);
+            background-size: 200% 100%;
+            animation: gradient 4s ease infinite;
+          }
+          .greeting { color: #818cf8; }
+          .title { color: #8b949e; }
+          .title a { color: #818cf8; }
+          .terminal { color: #8b949e; }
+          .prompt { color: #818cf8; }
+          .cmd { color: #e6edf3; }
+          .cursor { background: #818cf8; }
+          .tag {
+            background: rgba(129, 140, 248, 0.1);
+            color: #818cf8;
+          }
+          .status { color: #8b949e; }
+        }
+      </style>
+
+      <div class="card">
+        <div class="accent-bar"></div>
+        <div class="content">
+          <div class="greeting">Hey there</div>
+          <div class="name">Manoj Hortulanus</div>
+          <div class="title">Developer at <a>UX</a> &mdash; Nijmegen, NL</div>
+          <div class="terminal">
+            <span class="prompt">~</span>
+            <span class="cmd">building rocketeers.app</span>
+            <span class="cursor"></span>
+          </div>
+          <div class="stack">
+            <span class="tag">Laravel</span>
+            <span class="tag">FilamentPHP</span>
+            <span class="tag">Livewire</span>
+            <span class="tag">Inertia.js</span>
+            <span class="tag">React</span>
+            <span class="tag">Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="status">
+          <span class="dot"></span>
+          Available for cool projects
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

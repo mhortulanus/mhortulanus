@@ -1,12 +1,20 @@
-# Hey, I'm Manoj
-
-Developer at [@UX](https://github.com/ux-nl) in Nijmegen, NL.
-
-Building things with **Laravel**, **FilamentPHP**, **Livewire**, **Inertia.js**, **React** & **Tailwind CSS**.
-
-By night, building [Rocketeers](https://rocketeers.app) — a hosting platform for Laravel apps.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="header.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="header.svg" />
+  <img src="header.svg" alt="Manoj Hortulanus" width="800" />
+</picture>
 
 ---
 
-[![GitHub](https://img.shields.io/badge/GitHub-mhortulanus-181717?style=flat&logo=github)](https://github.com/mhortulanus)
-[![Website](https://img.shields.io/badge/Web-manojhortulanus.nl-000?style=flat&logo=safari)](https://manojhortulanus.nl)
+### Visitors
+
+> Dropped by? Leave your mark.
+
+<a href="https://github.com/mhortulanus/mhortulanus/issues/new?template=guestbook.yml&title=guestbook">
+  <img src="https://img.shields.io/badge/Sign%20the%20wall-black?style=for-the-badge&logo=github&logoColor=white" alt="Sign the wall" />
+</a>
+
+<p>
+<!-- VISITORS:START -->
+<!-- VISITORS:END -->
+</p>

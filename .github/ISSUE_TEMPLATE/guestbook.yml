@@ -1,0 +1,17 @@
+name: "Drop by"
+description: "Leave your mark on my profile"
+title: "guestbook"
+labels: ["guestbook"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Hey! Thanks for stopping by.**
+        Just hit submit — your avatar will appear on my profile.
+  - type: input
+    id: message
+    attributes:
+      label: "Leave a message (optional)"
+      placeholder: "Hello!"
+    validations:
+      required: false
