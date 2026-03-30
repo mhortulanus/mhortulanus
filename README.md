@@ -16,5 +16,6 @@
 
 <p>
 <!-- VISITORS:START -->
+<a href="https://github.com/mhortulanus" title="@mhortulanus"><img src="https://avatars.githubusercontent.com/mhortulanus" alt="@mhortulanus" width="50" height="50" style="border-radius:50%;" /></a>
 <!-- VISITORS:END -->
 </p>
