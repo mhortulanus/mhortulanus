@@ -6,16 +6,5 @@
 
 ---
 
-### Visitors
-
-> Dropped by? Leave your mark.
-
-<a href="https://github.com/mhortulanus/mhortulanus/issues/new?template=guestbook.yml&title=guestbook">
-  <img src="https://img.shields.io/badge/Sign%20the%20wall-black?style=for-the-badge&logo=github&logoColor=white" alt="Sign the wall" />
-</a>
-
-<p>
-<!-- VISITORS:START -->
-<a href="https://github.com/mhortulanus" title="@mhortulanus"><img src="https://avatars.githubusercontent.com/mhortulanus" alt="@mhortulanus" width="50" height="50" style="border-radius:50%;" /></a>
-<!-- VISITORS:END -->
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-mhortulanus-181717?style=flat&logo=github)](https://github.com/mhortulanus)
+[![Website](https://img.shields.io/badge/Web-manojhortulanus.nl-000?style=flat&logo=safari)](https://manojhortulanus.nl)
